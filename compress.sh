@@ -2,8 +2,9 @@ ZIP_FILE=`cat "./info.json" | jq --raw-output '(.name) + "_" + (.version) + ".zi
 zip -r -X $ZIP_FILE \
 	"./info.json" \
 	"./thumbnail.png" \
-	"./data-updates.lua" \
+	"./*.lua" \
 	"./LICENSE" \
+	"./locale/en/thicker-lines_en.cfg" \
 	"./core/graphics/copper-wire.png" \
 	"./core/graphics/green-wire.png" \
 	"./core/graphics/hr-copper-wire.png" \

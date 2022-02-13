@@ -10,7 +10,8 @@ New-Item -Path "$package/core/graphics" -ItemType 'directory' -Force
 	'info.json',
 	'changelog.txt',
 	'thumbnail.png',
-	'data-updates.lua',
+	'*.lua',
+	'locale',
 	'LICENSE'
 ).ForEach({
 	Copy-Item -Path $_ -Recurse -Container -Destination $package
