@@ -1,8 +1,8 @@
 {
-    "name": "ThickerLines",
-    "version": "0.1.2",
-    "title": "Thicker Power Wires",
-    "author": "Lachlan McDonald",
-    "factorio_version": "1.1",
-    "description": "Improved visibility of power lines and circuit wires"
+  "name": "ThickerLines",
+  "version": "0.1.2",
+  "title": "Thicker Power Wires",
+  "author": "Lachlan McDonald",
+  "factorio_version": "1.1",
+  "description": "Improved visibility of power lines and circuit wires"
 }
